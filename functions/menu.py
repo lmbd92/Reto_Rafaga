@@ -33,7 +33,6 @@ def main_menu():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
-                #quit()
                 sys.exit()
 
         screen.fill((0, 0, 0))  # Fondo negro
@@ -48,7 +47,6 @@ def main_menu():
 
         if keys[pygame.K_ESCAPE]:
             pygame.quit()
-            #quit()
             sys.exit()
 
 
@@ -61,7 +59,6 @@ def game_over_menu():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
-                #quit()
                 sys.exit()
 
         screen.fill((0, 0, 0))  # Fondo negro
@@ -76,5 +73,4 @@ def game_over_menu():
 
         if keys[pygame.K_ESCAPE]:
             pygame.quit()
-            # quit()
             sys.exit()

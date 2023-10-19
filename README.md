@@ -53,6 +53,16 @@ python main.py
 
 - Presiona ESC para salir del juego en cualquier momento.
 
+## Estados del juego
+
+**Inicia partida**
+
+![Alt text](assets/iniciaPartida.png)
+
+**Game Over**
+
+![Alt text](assets/gameover.png)
+
 ## Créditos
 
 - Este juego ha sido desarrollado por Lina Beltrán.
