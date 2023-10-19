@@ -17,7 +17,7 @@ pygame.display.set_caption("Esquiva Obstáculos")
 # Cargar las imágenes
 player_img = pygame.transform.scale(pygame.image.load("assets/player.svg"), (50, 50))
 obstacle_img = pygame.transform.scale(
-    pygame.image.load("assets/obstacle.svg"), (20, 20)
+    pygame.image.load("assets/obstacle.svg"), (30, 30)
 )
 
 # Variables del jugador
